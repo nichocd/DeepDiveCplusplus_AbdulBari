@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float b=7,h=5,area;
+	area=(float)b * h/2; //Write a expression to find Area as float using typecasting
+    cout<<"Area is: "<<area;
+
+    return 0;
+}
