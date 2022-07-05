@@ -12,8 +12,11 @@ int main(){
     if(x>y){
         cout<<"Greater number is: "<<x;
     }
-    else{
+    if(y>x){
         cout<<"Greater number is: "<<y;
+    }
+    if(x==y){
+        cout<<"Both numbers are equal";
     }
 
 
