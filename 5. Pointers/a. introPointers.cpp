@@ -35,3 +35,13 @@ when the function concludes and pointer b is deleted, then trying to use
 pointer a to access that memory produces an error at runtime as it is no longer available
 
 */
+
+// Pointer Arithmetic
+/*
+p++
+p--
+p = p + 1
+p = p - 1
+p = p + q or p = p -q
+
+*/
