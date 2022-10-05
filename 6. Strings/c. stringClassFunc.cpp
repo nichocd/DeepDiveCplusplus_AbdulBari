@@ -32,9 +32,18 @@ int main(){
 
     //str4.empty();
     str4.insert(5," All ");
-    cout<<str4;
+    cout<<str4<<endl;
     
     //str4.replace(x,x,"")
 
+    //change string from uppercase to lowercase
+    string str6="WELCOME";
+
+    for(int i=0;str6[i]!='\0';i++)
+    {
+        str6[i]=str6[i]+32;
+    }
+    cout<<str6<<endl;
+    
     return 0;
 }
