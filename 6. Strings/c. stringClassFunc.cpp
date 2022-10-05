@@ -33,6 +33,8 @@ int main(){
     //str4.empty();
     str4.insert(5," All ");
     cout<<str4;
+    
+    //str4.replace(x,x,"")
 
     return 0;
 }
