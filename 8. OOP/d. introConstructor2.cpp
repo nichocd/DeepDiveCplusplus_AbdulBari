@@ -80,7 +80,7 @@ public:
         return 2 * (length+breadth);
     }
 
-    int isSquare() //this is called an Inspector or Enquiry function to check if object is squared
+    bool isSquare() //this is called an Inspector or Enquiry function to check if object is squared
     {
         return 0;
     }
